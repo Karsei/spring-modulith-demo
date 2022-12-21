@@ -11,11 +11,9 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @SpringBootApplication
 @ConfigurationPropertiesScan
 public class SpringModulithDemoApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(SpringModulithDemoApplication.class, args)
                 .getBean(OrderManagement.class)
                 .complete(new Order());
     }
-
 }

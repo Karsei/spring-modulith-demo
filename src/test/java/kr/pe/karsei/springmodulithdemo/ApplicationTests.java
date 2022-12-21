@@ -7,7 +7,6 @@ import org.springframework.modulith.model.ApplicationModules;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 class ApplicationTests {
-
     ApplicationModules modules = ApplicationModules.of(SpringModulithDemoApplication.class);
 
     @Test
