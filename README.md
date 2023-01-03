@@ -2,7 +2,7 @@
 
 코드 구조를 도메인에 맞추도록 초점에 맞추면 궁극적으로 더 이해하기 쉽고 유지보수가 용이한 어플리케이션이 탄생하는 것으로 입증되었다.
 
-Spring Monolith 는 패키지를 기준으로 Spring Bean 의존성을 부여한다.
+Spring Modulith 는 패키지를 기준으로 Spring Bean 의존성을 부여한다.
 
 아래와 같은 구조가 있고, `Application.java` 에 `@SpringBootApplication` 이 있다면
 
